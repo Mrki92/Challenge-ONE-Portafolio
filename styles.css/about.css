@@ -1,0 +1,15 @@
+.about__container{
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+}
+
+.about__title{
+    font-size: 32px;
+}
+
+.about__descripcion{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}

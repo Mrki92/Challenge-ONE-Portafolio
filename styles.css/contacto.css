@@ -1,0 +1,54 @@
+/*.formcontato{
+    display: flex;
+    justify-content: right;
+}*/
+
+.formcontato__contacto{
+    display: flex;
+    /*border: solid red 3px;*/
+    align-items: center;
+    padding: 10px;
+}
+
+.formcontato--esquerda{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+.formcontato__img{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 30%;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size:18px;
+    
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.formcontato__botao{
+    color: #464646;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    border: 1px solid #464646;
+    cursor: pointer;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+

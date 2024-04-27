@@ -1,0 +1,24 @@
+
+
+.experience__section__title{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 15px;
+    /*align-items: center;
+    align-content: center;
+    border: 3px solid red;*/
+}
+
+.experiencie__box{
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+.experience__img{
+  /*  width: 40%;*/
+    width: 350px;
+    height: 250px;
+}
